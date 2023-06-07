@@ -1,15 +1,50 @@
+
 *{
-    margin: 0;
+    margin: auto;
+    padding: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #top_header{
-    background-color: aqua;
-    height: 50vh;
+    height: 50px;
 }
-
+#top_header nav ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#top_header nav ul li{
+    padding: 10px;
+    font-weight:bold;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 10px;
+}
+#top_header nav ul li:hover{
+color: orangered;
+}
+.first_main{
+    color: yellow;
+    margin-top:75px;
+    background-color: lightblue;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: grid;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body {
+    background-image: url(https://vanguardcleaningminn.com/wp-content/uploads/2019/07/commercial-carpet-cleaning-bonnet.png );
+}
 #footer_head{
     text-align: center;
-    margin-top: 40px;
-    background-color: aqua;
-    height: 40hv;
+    margin-top: 75px;
+    background-color: lightblue;
+    width: 275px;
+    border-radius: 20px;
 }
