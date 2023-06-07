@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+#top_header{
+    background-color: aqua;
+    height: 50vh;
+}
+
+#footer_head{
+    text-align: center;
+    margin-top: 40px;
+    background-color: aqua;
+    height: 40hv;
+}
