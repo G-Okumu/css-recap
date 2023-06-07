@@ -1,23 +1,23 @@
 *{
-    margin: 0;
-}
-
-*{
-    border-color: blue;
-    border: 20px;
+    border: 1px blue;
     padding: 20px;
-    margin: 40px;
+    margin: 20px;
 }
 p::first-letter{
-    color: yellow;
+    color: maroon;
 }
 
-nav::first-line{
+nav:first-line{
     color: brown;
+    font-style: italic;
+    font-size: large;
 }
 footer > p{
     color: aqua;
     background-color: black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
 }
 header > nav{
     color: blueviolet;
@@ -25,19 +25,15 @@ header > nav{
     margin: 40px;
 }
 h1 + p{
-    color: green ;
-}
-.first_main{
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-auto-rows: minmax(100px, auto);
-}
-#first_h1{
-    grid-row: 2 / 6;
-    grid-column: 1;
+    color: blue ;
 }
 #top_header{
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
 }
+.first_main{
+    display: flex;
+    justify-content: space-around;
+}
+
