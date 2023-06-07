@@ -1,13 +1,16 @@
-*{
+* {
     margin: 0;
+    padding: 5px;
+
+
 }
 
-#top_header{
+#top_header {
     background-color: aqua;
     height: 50vh;
 }
 
-#footer_head{
+#footer_head {
     text-align: center;
     margin-top: 40px;
     background-color: aqua;
