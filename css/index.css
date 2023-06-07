@@ -1,15 +1,30 @@
+/*using universal selector */
 *{
     margin: 0;
+    background-color: bisque;
 }
 
-#top_header{
-    background-color: aqua;
+/* Using attribute selector*/
+[alt="Screenshot"]{
+    width:30%;
+}
+
+header#top_header{
     height: 50vh;
 }
 
 #footer_head{
     text-align: center;
     margin-top: 40px;
-    background-color: aqua;
     height: 40hv;
+}
+
+/* Descendant selector*/
+
+ body div{
+    color: blue;
+}
+/* Parent-child selector*/
+ul > li {
+    color:purple;
 }
