@@ -2,14 +2,42 @@
     margin: 0;
 }
 
-#top_header{
-    background-color: aqua;
-    height: 50vh;
+*{
+    border-color: blue;
+    border: 20px;
+    padding: 20px;
+    margin: 40px;
+}
+p::first-letter{
+    color: yellow;
 }
 
-#footer_head{
-    text-align: center;
-    margin-top: 40px;
-    background-color: aqua;
-    height: 40hv;
+nav::first-line{
+    color: brown;
+}
+footer > p{
+    color: aqua;
+    background-color: black;
+}
+header > nav{
+    color: blueviolet;
+    background-color: black;
+    margin: 40px;
+}
+h1 + p{
+    color: green ;
+}
+.first_main{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: minmax(100px, auto);
+}
+#first_h1{
+    grid-row: 2 / 6;
+    grid-column: 1;
+}
+#top_header{
+    display: flex;
+    justify-content: space-between;
+
 }
