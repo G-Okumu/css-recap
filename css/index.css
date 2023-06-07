@@ -28,3 +28,13 @@ a:visited {
 section>h1 {
     color: #00FF00;
 }
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+
+}
+
+.section-1 {}
