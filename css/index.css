@@ -1,15 +1,58 @@
 *{
-    margin: 0;
+    margin: 1;
 }
 
 #top_header{
-    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlVZd2w1nMfAvVWybc98yhOfll-FxYseGTqZwRKMGB5GwMvhC_PctYh4m5gDJve7qKxI&usqp=CAU);
     height: 50vh;
+    border: 200px;
+    font-size: 28px;
+  font-weight: bold;
+  color: #0e0606;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-style: inherit;
 }
 
+::marker{
+    color: rgb(243, 0, 0);
+}
 #footer_head{
     text-align: center;
     margin-top: 40px;
-    background-color: aqua;
+    background-color: red;
     height: 40hv;
 }
+p::first-letter{
+    color:black;
+    font-size: x-large;
+    font-weight: 500;
+}
+::first-line{
+    font-weight: bolder;
+    font-style: oblique;
+}
+/* Container styles */
+.first_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Item styles */
+   .first_main{
+    flex: 1 0 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Grid styles */
+  .first_main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
