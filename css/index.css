@@ -37,3 +37,28 @@ ul li:nth-child {
 a:visited {
     color: brown;
 }
+
+.parent > .child {
+    color: black;
+}
+
+.grandparent > .parent > .child {
+    font-weight: bold;
+}
+
+.container > p {
+    margin: 0;
+    padding: 100px;
+}
+
+.container {
+    display: block;
+    align-items: baseline;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+}
