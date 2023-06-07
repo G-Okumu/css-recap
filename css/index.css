@@ -4,27 +4,34 @@
     background-color: bisque;
 }
 
-/* Using attribute selector*/
-[alt="Screenshot"]{
-    width:30%;
-}
+
+
 
 header#top_header{
     height: 50vh;
 }
 
+/* Using Flex */
 #footer_head{
-    text-align: center;
-    margin-top: 40px;
-    height: 40hv;
+  margin-bottom: 40px;
+  display:flex;
+  justify-content: space-between;
+  padding-right:332px;
+  padding-left: 323px;
+  border:1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 260px;
+  background-color: aliceblue;
+
 }
 
-/* Descendant selector*/
+#footer_head p{
+    background-color:aliceblue;
+    color:blue;
+}
 
- body div{
-    color: blue;
-}
-/* Parent-child selector*/
-ul > li {
-    color:purple;
-}
+
+ 
+
+
