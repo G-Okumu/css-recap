@@ -13,3 +13,27 @@
     background-color: aqua;
     height: 40hv;
 }
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: aqua;
+}
+
+ul li:nth-child {
+    background-color: beige;
+}
+
+a:visited {
+    color: brown;
+}
