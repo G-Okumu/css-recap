@@ -32,6 +32,25 @@ header#top_header{
 }
 
 
+ul > li{
+    color:blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:40px;
+}
  
 
+/* Using Pseudo classes */
+
+a:hover{
+    color:cyan;
+}
+
+a:active{
+    color:crimson;
+}
+
+a:visited{
+    color:black;
+}
 
