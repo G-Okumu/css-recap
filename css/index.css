@@ -24,3 +24,7 @@ a:link {
 a:visited {
     color: #00FF00;
 }
+
+section>h1 {
+    color: #00FF00;
+}
