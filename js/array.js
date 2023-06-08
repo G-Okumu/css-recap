@@ -1,14 +1,39 @@
-/*function data(){
-    const dataArray= [];
-    for(let i=1;i<=2; i++){
-        var name=prompt("Enter student name");
-        var age=parseInt(prompt("Enter student age"));
-        var grade=parseInt(prompt("Enter student marks"));
-        dataArray.push(name, age, grade +'<br>');  
+const numberSubjects=parseInt(prompt("Enter Number Of Subjects"));
+function Grades(){
+    const gradesArray= [];
+    for(var i=1; i<=numberSubjects; i++){
+        const marks=parseInt(prompt("Enter student Marks"));
+        if(marks>=0&&marks<=100){
+            gradesArray.push(marks);
+        }
     }
-    document.writeln(dataArray)
-}
-data();*/
+    const sum = gradesArray.reduce(function(a,b){
+        return a + b;
+    });
+    const average=sum/numberSubjects
+    document.writeln(average);
+
+};
+const numberOfStudents = parseInt(prompt("Enter Number of Students"));
+const studentArray= [];
+ function studentData(){
+    for(var j=1; j<=numberOfStudents; j++){
+        studentArray.push({
+             name:prompt("Enter Name"),
+             age:parseInt(prompt("Enter Age")),
+             grade:Grades()
+        })
+    }
+    console.log(studentArray);
+    document.writeln(studentArray);
+ }
+ 
+ studentData();
+
+
+
+
+/*
 function data(callback){
     const dataArray= [];
     while(true) {
@@ -56,4 +81,4 @@ function data(callback){
         grade= "D"
         document.writeln(grade + "<br>")
     }
-  });
+  });*/
