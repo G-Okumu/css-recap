@@ -23,11 +23,18 @@ let student = [
 
         ]
 
-function gradeSum (a,b){
-    return (a+b)/ (student.length);
-}
+    let marks = student.map((number)=> number.grade);
+    
+    let sum=0;
 
-console.log(gradeSum(student[0].grade , student[1].grade))
+    marks.forEach(grade=>{
+        sum += grade/2
+    })
+
+    console.log(sum)
+
+
+ 
 
 
 
