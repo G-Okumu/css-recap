@@ -30,7 +30,7 @@ section>h1 {
 }
 
 main {
-    display: grid;
+    display: flex;
     row-gap: 50px;
 }
 
